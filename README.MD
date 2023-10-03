@@ -1,6 +1,7 @@
 A pesar de la falta de tiempo creo que he dado lo mejor para el proyecto.
 
-Mi aplicación cuando logea un usuario accede directamente al portal de
+Mi aplicación cuando logea un usuario accede directamente al portal de **No he logrado hacer el Login de usuario.
+(Para acceder al proyecto completo puedes entrar en localhost:3000/gestion-producto) La información de acceso será más precisa accediendo a las rutas del archivo public/index.php
 -Gesión de Productos.
     -Dentro de gestión de productos el usuario no verá nada hasta que seleccione los select para elegir el tipo de producto que desea ver
     -También he añadido a modo de alerta unos colores en base a la cantidad del producto que hay.
@@ -46,5 +47,14 @@ FashionTextil Tienda de ropa que vende una gran variedad de productos, Para pode
     [x-]- Deben Mostrarse y permitir filtrar por mas vendidos, un producto en especificó, etc.
 2. **Seguridad:**
     []- El sistema debe garantizar que solo los usuarios autorizados tengan acceso a las funciones de gestión.
+
+
+
+
+#El proyecto para ejecutarse se necesita utilizar
+
+    cd public
+    php -S localhost:3000
+
 
 
