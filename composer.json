@@ -1,0 +1,17 @@
+{
+    "name": "bart/php-fashion-textil",
+    "autoload": {
+        "psr-4": {
+            "PhpFashionTextil\\": "./",
+            "Controllers\\":"./controllers",
+            "Models\\":"./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "BartHxC",
+            "email": "barthxc.business@gmail.com"
+        }
+    ],
+    "require": {}
+}

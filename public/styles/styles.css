@@ -1,0 +1,106 @@
+body {
+    background-color: #dcdcdc; /* Un tono de gris claro */
+  }
+  
+  /* Resto de los estilos... */
+  
+/* Estilos para los enlaces de navegación */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+a.active {
+  color: #ff5733; /* Color para el enlace activo */
+}
+
+/* Estilos para las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los botones */
+button, input[type="submit"] {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Estilos para los formularios */
+form {
+  margin-bottom: 20px;
+}
+
+label, select {
+  font-weight: bold;
+}
+
+select {
+  padding: 4px;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+/* Estilos para los mensajes de error */
+.error {
+  color: #ff5733;
+  font-weight: bold;
+}
+
+
+
+
+/*STOCK*/
+
+.alerta-stock {
+    /* Puedes dejar este estilo en blanco si no hay un color de fondo predeterminado */
+  }
+  
+  .alerta-stock.stock-ok {
+    background-color: #4caf50; /* Verde */
+    color: white;
+  }
+  
+  .alerta-stock.stock-medio {
+    background-color: #ffeb3b; /* Amarillo */
+  }
+  
+  .alerta-stock.stock-bajo {
+    background-color: #f44336; /* Rojo */
+    color: white;
+  }
+  
