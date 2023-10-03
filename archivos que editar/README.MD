@@ -23,7 +23,7 @@ Podemos acceder a toda la información de Logistica presionando de nuevo "Ver to
 
 
 
-//
+
 
 
 # Caso de estudio
